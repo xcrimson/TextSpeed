@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TextSpeed</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="accelerometer_checkbox_title">Use accelerometer</string>
+    <string name="accelerometer_checkbox_summary">Accelerometer data can increase precision</string>
+
+    <string name="gps_precision_title">GPS precision</string>
+    <string name="gps_precision_summary">Frequency of GPS data requests</string>
+</resources>

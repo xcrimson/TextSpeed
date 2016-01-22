@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/smsOpponent"
+        android:text="From +12314134" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/smsText"
+        android:layout_below="@+id/smsOpponent"
+        android:text="some very long example sms text that noone will ever see"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+
+        android:layout_marginTop="0dp"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/smsTime"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/smsText"
+        android:text="11:25 10 June 2015" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/smsSpeed"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/smsText"
+        android:text="10 MPH"
+        android:textColor="@android:color/holo_red_dark" />
+</RelativeLayout>

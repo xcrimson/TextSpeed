@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:key="gps_precision"
+        android:title="@string/gps_precision_title"
+        android:summary="@string/gps_precision_summary"
+        android:entries="@array/gps_precision_types"
+        android:entryValues="@array/gps_precision_values"
+        android:dialogTitle="@string/gps_precision_title"
+        android:defaultValue="high"/>
+
+    <CheckBoxPreference
+        android:key="use_accelerometer"
+        android:title="@string/accelerometer_checkbox_title"
+        android:summary="@string/accelerometer_checkbox_summary"
+        android:defaultValue="false"/>
+
+</PreferenceScreen>
